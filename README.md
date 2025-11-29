@@ -1,11 +1,11 @@
-# ✈️ plane_cam  
+# plane_cam  
 PX4 SITL için **basit uçak + kamera modeli** (Gazebo Classic).
 
 Bu paket, PX4 simülasyon ortamında kamera entegre edilmiş bir sabit kanatlı uçak modelini hızlıca çalıştırmak ve test etmek için hazırlanmıştır.
 
 ---
 
-## 📁 Dosya Yapısı
+## Dosya Yapısı
 
 Bu repoda aşağıdaki dosyalar bulunmaktadır:
 
@@ -15,7 +15,7 @@ Bu repoda aşağıdaki dosyalar bulunmaktadır:
 
 ---
 
-## 🚀 Hızlı Başlangıç
+## Hızlı Başlangıç
 
 PX4 SITL ve Gazebo Classic ile çalıştırmak için:
 
