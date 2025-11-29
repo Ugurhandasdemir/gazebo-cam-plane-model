@@ -1,15 +1,24 @@
+# ✈️ plane_cam  
+PX4 SITL için **basit uçak + kamera modeli** (Gazebo Classic).
 
-# plane_cam
+Bu paket, PX4 simülasyon ortamında kamera entegre edilmiş bir sabit kanatlı uçak modelini hızlıca çalıştırmak ve test etmek için hazırlanmıştır.
 
-Basit: PX4 SITL için uçak + kamera modeli.
+---
 
-Dosyalar:
-- `model.config`
-- `plane_cam.sdf`
-- `plane_cam.sdf.jinja`
+## 📁 Dosya Yapısı
 
-Hızlı kullanım:
-- PX4 kök dizininde: `make px4_sitl gazebo`
-- Gazebo'da Insert ile modeli ekleyin veya SDF'yi spawn edin.
+Bu repoda aşağıdaki dosyalar bulunmaktadır:
 
+- **model.config** — Gazebo model yapılandırması  
+- **plane_cam.sdf** — Uçağın SDF modeli  
+- **plane_cam.sdf.jinja** — PX4 tarafından otomatik oluşturma için Jinja2 şablonu
 
+---
+
+## 🚀 Hızlı Başlangıç
+
+PX4 SITL ve Gazebo Classic ile çalıştırmak için:
+
+```bash
+cd ~/PX4-Autopilot
+make px4_sitl gazebo
