@@ -22,3 +22,9 @@ PX4 SITL ve Gazebo Classic ile çalıştırmak için:
 ```bash
 cd ~/PX4-Autopilot
 make px4_sitl gazebo-classic_plane_cam
+```
+PX4 SITL ve Gazebo Classic ile multi vehicle çalıştırmak için:
+```bash
+cd /PX4-Autopilot/Tools/simulation/gazebo-classic
+./sitl_multiple_run.sh -m plane_cam -n 5
+```
